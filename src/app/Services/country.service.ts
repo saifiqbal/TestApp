@@ -9,9 +9,9 @@ import {Country} from "../Countries/country.model";
 @Injectable()
 export class CountryService{
    public cacheObservable:Observable<any>=null;
-    geoApiUrl:string='http://api.geonames.org/countryInfo?username=saifiqbal10p&type=json';
-    countryDetailsUrl:string='http://api.geonames.org/countryInfo?username=saifiqbal10p&type=json&country=';
-    neighborsUrl:string='http://api.geonames.org/neighbours?username=saifiqbal10p&type=json&geonameId=';
+    geoApiUrl:string='//api.geonames.org/countryInfo?username=saifiqbal10p&type=json';
+    countryDetailsUrl:string='//api.geonames.org/countryInfo?username=saifiqbal10p&type=json&country=';
+    neighborsUrl:string='//api.geonames.org/neighbours?username=saifiqbal10p&type=json&geonameId=';
    
     constructor(private _http:Http){
     }
